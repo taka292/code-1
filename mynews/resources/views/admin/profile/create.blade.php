@@ -12,3 +12,15 @@
         <a href="https://b99ade87a77f48958138163c448ead3e.vfs.cloud9.us-east-2.amazonaws.com/admin/profile/edit">編集する</a>
     </body>
 </html>
+
+@extends('layouts.profile')
+@section('title','profileの新規作成')
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h2>Myprofileの新規作成</h2>
+        </div>
+    </div>
+</div>
+@endsection
